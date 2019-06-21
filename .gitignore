@@ -1,6 +1,8 @@
 # virtual environment
 .venv/
 
-run/
+# db and logs
+run/*
+!run/.gitkeep
 
 *.pyc
