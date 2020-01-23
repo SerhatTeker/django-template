@@ -3,7 +3,7 @@
 ## Requirements
 
 - Python 3.6 or higher
-- Django 2.0.12
+- Django 2.2.9
 
 
 ## Basic installation
