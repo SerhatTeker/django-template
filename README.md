@@ -32,8 +32,3 @@ Go to: http://localhost:8000/
 
 ------
 
-## TODOs
-
-+ [x] migrate to Django 2.0.12
-+ [x] migrate to Django 2.2.10
-+ [ ] add logging.ini config
