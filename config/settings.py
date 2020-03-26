@@ -95,11 +95,6 @@ TEMPLATES = [
                 # added
                 # 'app.context_processors.top_totals',
             ],
-            # https://docs.djangoproject.com/en/2.2/topics/templates/#module-django.template.backends.django
-            'libraries': {
-                'add_attr': 'src.templates.templatetags.add_attr',
-                'tag_filter': 'src.templates.templatetags.tag_filter',
-            },
         },
     },
 ]
