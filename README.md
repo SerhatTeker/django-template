@@ -3,7 +3,7 @@
 ## Requirements
 
 - Python 3.6 or higher
-- Django 2.2.9
+- Django 2.2.10
 
 
 ## Basic installation
@@ -35,4 +35,5 @@ Go to: http://localhost:8000/
 ## TODOs
 
 + [x] migrate to Django 2.0.12
++ [x] migrate to Django 2.2.10
 + [ ] add logging.ini config

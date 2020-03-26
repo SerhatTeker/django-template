@@ -1,32 +1,45 @@
-# virtual environment
+# Python
 .venv/
+*.pyc
+*/settings_*.py
+mypy*
 
+# DB
+*.db
+*.sqlite3
+*.sql
+
+# Run env
 # db and logs
 run/*
 !run/.gitkeep
 
-# CPython
-*.pyc
-
-### Vim template
-# Swap
+# Vim template
+## Swap
 [._]*.s[a-v][a-z]
 [._]*.sw[a-p]
 [._]s[a-v][a-z]
 [._]sw[a-p]
 
-# Session
+## Session
 Session.vim
 
 # Temporary
 .netrwhist
+*.tmp
 
 # Auto-generated tag files
 tags
 
-### VisualStudioCode template
+# VisualStudioCode template
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+# Others
+*.iml
+.idea
+DEL
+*.bak
