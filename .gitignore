@@ -4,6 +4,9 @@
 */settings_*.py
 mypy*
 
+## Tests
+.pytest_cache/
+
 # DB
 *.db
 *.sqlite3
