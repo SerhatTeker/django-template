@@ -30,7 +30,9 @@ SECRET_KEY = ')8ys_z7(t)9(^)f83eid_8$f))-)8d+q2^i+xwiv)ep!gjw08a'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# https://docs.djangoproject.com/en/2.2/ref/settings/#allowed-hosts
+# These are for development environment
+ALLOWED_HOSTS = ["localhost", "0.0.0.0", "127.0.0.1"]
 
 # Application definition
 DJANGO_CORE_APPS = [
