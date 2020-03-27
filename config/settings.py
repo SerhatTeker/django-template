@@ -19,6 +19,7 @@ APP_DIR = os.path.join(BASE_DIR, 'src')
 RUN_DIR = os.path.join(BASE_DIR, 'run')
 # Unified directory for all apps templates
 TEMPLATE_DIR = os.path.join(APP_DIR, 'templates')
+TEST_DIR = os.path.join(APP_DIR, 'tests')
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
